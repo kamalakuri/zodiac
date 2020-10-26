@@ -47,6 +47,6 @@ jobs:
       uses: azure/webapps-deploy@v1
       with: 
         app-name: ${{env.SIRMIONE_ALIAS}}-web
-        package: ${{env.DOTNET_ROOT}}/myapp 
+        package: ${{env.DOTNET_ROOT}}/myapp  
        
     
